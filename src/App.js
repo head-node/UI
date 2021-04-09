@@ -1,7 +1,9 @@
 import react from "react";
 import "./App.css";
 import Sidenav from "./components/SideNav/sidenav";
-import Header from "./components/Header/Header"
+import Header from "./components/Header/Header";
+import Container from "./components/Container.js/index.js"
+
 const menu = [
   "Dashboard",
   "Users",
@@ -21,7 +23,11 @@ const App = () => {
   return (
     <> 
       <Header/>
-      <Sidenav navlist={menu}/>
+      <div style={{display: 'flex'}}>
+      <Sidenav  navlist={menu}/>
+      <Container style={{width:"500px"}} />
+      </div>
+      
     </>
   );
 };
