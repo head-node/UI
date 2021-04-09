@@ -1,0 +1,40 @@
+.App {
+  height: 500px;
+
+  display: flex;
+  justify-content: space-around;
+}
+.logo {
+  width: 150px;
+  height: 60px;
+  padding: 20px;
+  margin-right: 80px;
+}
+.header {
+  color: #ffb069;
+  font-weight: 700;
+  font-size: x-large;
+  display: flex;
+  align-items: center;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+  height: 80px;
+}
+/* .navlist{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start; 
+}  */
+.navlist p {
+  display: flex;
+  align-items: center;
+  padding: 20px;
+  height: 5px;
+  width: 230px;
+}
+.navlist p:hover {
+  background-color: #ffa052;
+  font-weight: bold;
+  color: white;
+  border-right: solid grey 5px;
+  
+}
