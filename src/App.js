@@ -1,4 +1,4 @@
-import react from "react";
+import React from "react";
 import "./App.css";
 import Sidenav from "./components/SideNav/sidenav";
 import Header from "./components/Header/Header";
@@ -25,7 +25,7 @@ const App = () => {
       <Header/>
       <div style={{display: 'flex'}}>
       <Sidenav  navlist={menu}/>
-      <Container style={{width:"500px"}} />
+      <Container />
       </div>
       
     </>
