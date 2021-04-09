@@ -1,6 +1,7 @@
 import React from "react";
 import BasicDetails from "../Application/BasicDetails";
-import CreditScore from "../Application/CreditScore";
+import CreditScore from "../Application/CreditScore"; 
+import LoanApplication from "../Application/LoanApplication";
 function index(props) {
   return (
     <div
@@ -12,14 +13,14 @@ function index(props) {
     >
         <div className="basicDetail"><h2>Basic Details:</h2></div>
       <div style={{marginTop:"80px"}}>
-      <h2 style={{ textAlign: "end", marginRight: "80px" }}>Credit Score:</h2>
+      <h2 style={{ textAlign: "end", marginRight: "80px"}}>Credit Score:</h2>
       <div className="creditScore">
         <BasicDetails />
-        <CreditScore />
+        <CreditScore /> 
       </div>
       <hr/>
       </div>
-
+      <LoanApplication/>
     </div>
   );
 }
