@@ -14,12 +14,13 @@ const Communications = (props) => {
       <div
         className="comments"
         style={{ width: "97%", border: "2px solid rgb(212,210,210)" }}
-      >
+      >   
+      <span style={{width:"fit-content",border:"1px solid rgb(156,155,155)",borderRadius:"10px",padding:"5px 10px",position:"absolute",left:"50%"}}>Thursday, September 03rd<span style={{padding:"0px 2px"}}>▼</span></span>
         <div
           className="user-comment"
           style={{
             display: "flex",
-            marginTop: "40px",
+            marginTop: "60px",
             marginLeft: "30px",
             width: "1000px",
           }}
