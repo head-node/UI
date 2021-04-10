@@ -40,9 +40,31 @@ const index = (props) => {
             </h4>
             <p style={{ color: "#83878D" }}>Lorem Ipsum is Lorem Ips</p>
           </div>
-          <div style={{ display: "flex", justifyContent: "space-between" }}>
+          <form style={{ display: "flex", justifyContent: "space-between" }}>
             <div>
-                <input></input>
+              <label
+                style={{
+                  display: "inline-block",
+                  width: "1000px",
+                  padding: "10px 30px",
+                  border: "1px solid  rgb(156, 155, 155)",
+                }}
+                for="input"
+              >
+                Message # revfin
+              </label>
+              <br></br>
+              <input
+                style={{
+                  display: "inline-block",
+                  width: "1000px",
+                  padding: "10px 30px",
+                  border: "1px solid  rgb(156, 155, 155)",
+                  backgroundColor:"rgb(249, 249, 243)"
+                }}
+                type="text"
+                id="input"
+              ></input>
             </div>
             <button
               style={{
@@ -55,11 +77,12 @@ const index = (props) => {
                 fontWeight: "bold",
                 marginRight: "50px",
                 marginBottom: "15px",
+                marginTop:"40px"
               }}
             >
               Submit
             </button>
-          </div>
+          </form>
         </div>
       </div>
     </>
