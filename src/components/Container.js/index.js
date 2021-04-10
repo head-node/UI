@@ -2,8 +2,12 @@ import React from "react";
 import BasicDetails from "../Application/BasicDetails";
 import CreditScore from "../Application/CreditScore"; 
 import LoanApplication from "../Application/LoanApplication";
-
-import Documents from "../Application/Documents";
+import Loans from "../Application/Loans";
+import Documents from "../Application/Documents"; 
+import Collection from "../Application/Collections"; 
+import Insurance from "../Application/Insurance"; 
+import IOT from "../Application/IOT";
+import Remarks from "../Application/Remarks";
 function index(props) {
   return (
     <div
@@ -24,8 +28,19 @@ function index(props) {
         </div>
         <hr />
       </div>
-      <LoanApplication/>
-      <Documents />
+      <LoanApplication/> 
+      <hr/>
+      <Loans/> 
+      <hr/> 
+      <Collection/> 
+      <hr/> 
+      <Insurance/>
+      <hr/>
+      <IOT/> 
+      <hr/> 
+      <Remarks/>
+      <hr/>
+      <Documents/>
     </div>
   );
 }
