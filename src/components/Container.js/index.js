@@ -1,13 +1,14 @@
 import React from "react";
 import BasicDetails from "../Application/BasicDetails";
-import CreditScore from "../Application/CreditScore"; 
+import CreditScore from "../Application/CreditScore";
 import LoanApplication from "../Application/LoanApplication";
 import Loans from "../Application/Loans";
-import Documents from "../Application/Documents"; 
-import Collection from "../Application/Collections"; 
-import Insurance from "../Application/Insurance"; 
+import Documents from "../Application/Documents";
+import Collection from "../Application/Collections";
+import Insurance from "../Application/Insurance";
 import IOT from "../Application/IOT";
 import Remarks from "../Application/Remarks";
+import Communications from "../Application/Communications";
 function index(props) {
   return (
     <div
@@ -28,19 +29,21 @@ function index(props) {
         </div>
         <hr />
       </div>
-      <LoanApplication/> 
-      <hr/>
-      <Loans/> 
-      <hr/> 
-      <Collection/> 
-      <hr/> 
-      <Insurance/>
-      <hr/>
-      <IOT/> 
-      <hr/> 
-      <Remarks/>
-      <hr/>
-      <Documents/>
+      <LoanApplication />
+      <hr />
+      <Loans />
+      <hr />
+      <Collection />
+      <hr />
+      <Insurance />
+      <hr />
+      <IOT />
+      <hr />
+      <Remarks />
+      <hr />
+      <Communications />
+      <hr />
+      <Documents />
     </div>
   );
 }
