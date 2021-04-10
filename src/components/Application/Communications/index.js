@@ -168,6 +168,49 @@ const Communications = (props) => {
             </div>
           </div>
         </div>
+        <form style={{ display: "flex", justifyContent: "space-between" , margin:"40px 0 0 5px"}}>
+            <div>
+              <label
+                style={{
+                  display: "inline-block",
+                  width: "900px",
+                  padding: "10px 30px",
+                  border: "1px solid  rgb(156, 155, 155)",
+                }}
+                for="input"
+              >
+                Message # revfin
+              </label>
+              <br></br>
+              <input
+                style={{
+                  display: "inline-block",
+                  width: "900px",
+                  padding: "10px 30px",
+                  border: "1px solid  rgb(156, 155, 155)",
+                  backgroundColor:"rgb(249, 249, 243)"
+                }}
+                type="text"
+                id="input"
+              ></input>
+            </div>
+            <button
+              style={{
+                color: "#ffa052",
+                height: "40px",
+                width: "130px",
+                borderRadius: "10px",
+                backgroundColor: "#ffa052",
+                color: "white",
+                fontWeight: "bold",
+                marginRight: "20px",
+                marginBottom: "15px",
+                marginTop:"40px"
+              }}
+            >
+              Submit
+            </button>
+          </form>
       </div>
     </div>
   );

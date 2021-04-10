@@ -45,7 +45,7 @@ const index = (props) => {
               <label
                 style={{
                   display: "inline-block",
-                  width: "1000px",
+                  width: "900px",
                   padding: "10px 30px",
                   border: "1px solid  rgb(156, 155, 155)",
                 }}
@@ -57,7 +57,7 @@ const index = (props) => {
               <input
                 style={{
                   display: "inline-block",
-                  width: "1000px",
+                  width: "900px",
                   padding: "10px 30px",
                   border: "1px solid  rgb(156, 155, 155)",
                   backgroundColor:"rgb(249, 249, 243)"
